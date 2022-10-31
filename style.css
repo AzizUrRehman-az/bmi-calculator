@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #18454a;
+  color: white;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 10px 10px 40px 10px;
+  background-color: white;
+  color: #18454a;
+}
+label {
+  font-size: 20px;
+  position: relative;
+  left: 110px;
+}
+input {
+  padding: 4px;
+  border: 2px solid gray;
+  outline: none;
+  font-size: 20px;
+  position: relative;
+  left: 70px;
+  border-radius: 5px;
+}
+#btnSubmit {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  left: 120px;
+  top: 10px;
+}
+#btnSubmit:hover {
+  background-color: #18454a;
+  color: white;
+}
+#output {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid white;
+  position: relative;
+  top: 50px;
+}
